@@ -1,0 +1,217 @@
+/* All desktop. */
+@media (min-width: 768px) and (max-width: 1500px) {
+   h1 {font-size: 45px;}
+   h2 {font-size: 38px;}
+   h3 {font-size: 30px;}
+   h4 {font-size: 25px;}
+   h5 {font-size: 20px;}
+   h6 {font-size: 14px;}
+   body {
+      font-size: 14px;
+   }
+
+   .config-content-title > i {
+      border-width: 3px;
+   }
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+   .container {
+      max-width: 1100px;
+   }
+}
+
+/* All desktop. */
+@media (min-width: 768px) and (max-width: 1199px) {
+   .config-content-title > i {
+      border-width: 3px;
+   }
+   .config-content-title h6 {
+      font-size: 13px;
+   }
+   .config-content-title {
+      padding: 1.2em 1.5em;
+   }
+   .navigation-slider li {
+      font-size: .95em;
+   }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .container {
+      max-width: 990px;
+   }
+   .mainmenu ul li a {
+      font-size: 12px;
+      padding: 40px 10px;
+   }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+   .container {
+      max-width: 760px;
+   }
+   .mean-bar {
+      margin-top: -60px;
+      transform: translateY(6px);
+   }
+   .header-area {
+      padding: 15px 0;
+      padding-bottom: 10px;
+   }
+   .footer-logo img {
+      max-width: 80px;
+   }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+   h1 {font-size: 32px;}
+   h2 {font-size: 24px;}
+   h3 {font-size: 22px;}
+   h4 {font-size: 20px;}
+   h5 {font-size: 18px;}
+   h6 {font-size: 14px;}
+   body {
+      font-size: 14px;
+   }
+
+   .config-model-info {
+      text-align: center;
+   }
+   .config-content::before {
+      display: none;
+   }
+   .config-content-wrap .action-btns {
+      display: none;
+   }
+   .config-wheel-container .action-btns {
+      display: block;
+   }
+   .config-content-title > i {
+      display: none;
+   }
+   .config-content-title {
+      padding: 1em 1.2em;
+      font-size: .7em;
+      justify-content: center;
+   }
+   .config-category li {
+      font-size: .7em;
+   }
+   .config-content-title h6 {
+      font-size: inherit;
+   }
+   .selected-color-wrap h4 {
+      display: none;
+   }
+   .preview-wheel-wrap {
+      display: none;
+   }
+   .selected-boxed {
+      display: none;
+   }
+   .choose-color-main {
+      margin-top: 0;
+      padding-top: 0;
+      border: 0;
+      text-align: center;
+   }
+   .choose-color-wrapper {
+      display: inline-block;
+   }
+   .choose-color-main i.running-move {
+      position: relative;
+      display: inline-block;
+      margin: 0;
+      right: 0;
+      top: 0;
+      margin-left: -1em;
+      margin-right: .5em;
+   }
+   .choose-color-icon-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .navigation-slider li {
+      font-size: 12px;
+   }
+   .config-pointer h5 {
+      display: none;
+   }
+   .dash-lines {
+      background: none;
+   }
+   .choose-color-category,
+   .select-color-category {
+      font-size: .8em;
+   }
+   .navigation-slider li.active .config-nav-name {
+      border-width: 2px;
+   }
+   .site-btn {
+      font-size: .8em;
+   }
+   .error-box {
+      width: 100%;
+   }
+   .config-navigation-wrap {
+      text-align: center;
+   }
+
+   .config-wheel-wrap {
+      transform: scale(1.12);
+      margin: .5em 0;
+   }
+   .action-btns .site-btn {
+      padding: 1em;
+      min-width: 9em;
+      text-align: center;
+   }
+   .action-btns .site-btn i {
+      display: none;
+   }
+   .action-inner {
+      display: inline-block;
+   }
+
+   .header-area {
+      padding: 10px 0;
+   }
+   .mean-bar {
+      margin-top: -60px;
+      transform: translateY(6px);
+   }
+   .copyright {
+      font-size: 11px;
+      text-align: center;
+   }
+   .footer-logo {
+      padding: 20px 0;
+   }
+   .footer-link {
+      text-align: center;
+   }
+   .footer-link a {
+      padding: 0 5px;
+   }
+   .footer-link a img {
+      margin-left: 0;
+   }
+   .footer-logo img {
+      max-width: 85px;
+   }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .container {
+      max-width: 350px;
+   }
+}
+
